@@ -1,0 +1,9 @@
+== README
+
+Simple sample OData provider.  
+
+Standard Rails scaffolding for a "Todo" model 
+
+/todos <- create new todo items here
+
+Go to /OData/OData.svc to view the OData for this model, exposed by the odata_server gem.
