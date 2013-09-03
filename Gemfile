@@ -44,4 +44,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'odata_server', :path => "git://github.com/lmcalpin/odata_server.git" 
+gem 'odata_server', :git => "git://github.com/lmcalpin/odata_server.git" 
