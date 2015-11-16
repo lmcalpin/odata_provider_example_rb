@@ -28,7 +28,7 @@ module OdataProviderExampleRb
         @baz = baz
       end    
     end
-    config.after_initialize do
+    config.to_prepare do
       inmem = OData::InMemorySchema::Base.new("InMem", classes: Foo)
       OData::Edm::DataServices.schemas << inmem
       (1..20).each do |n|

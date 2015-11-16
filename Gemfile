@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails-api'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -44,6 +44,5 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-#gem 'odata_server', :git => "git://github.com/lmcalpin/odata_server.git"
-gem 'odata_server', :path => "E:/Programming/Projects/odata/odata_server" 
+gem 'odata_server', :git => "git://github.com/lmcalpin/odata_server.git"
  
